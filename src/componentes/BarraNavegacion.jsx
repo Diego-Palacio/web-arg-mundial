@@ -7,7 +7,7 @@ export const BarraNavegacion = () => {
 
   
   <div className="arg-ar"> 
-       <a>Argentina 1 vs Arabia Saudita 2</a>
+       <a>ARGENTINA 1 vs ARABIA SAUDITA 2</a>
           <div className="flex-data"> 
               <img src="src/imagenes/arg.png" alt=""/>
               <img src="src/imagenes/ar.png" alt=""/>
@@ -16,7 +16,7 @@ export const BarraNavegacion = () => {
   </div>
 
   <div className="arg-mex"> 
-       <a>Argentina 2 vs Mexico 0</a>
+       <a>ARGENTINA 2 vs MEXICO 0</a>
           <div className="flex-data"> 
             <img src="src/imagenes/arg.png" alt=""/>
             <img src="src/imagenes/mex.png" alt=""/>
@@ -25,7 +25,7 @@ export const BarraNavegacion = () => {
   </div>
 
   <div className="arg-pol"> 
-       <a>ARGENTINA 2 vs Polonia 0</a>
+       <a>ARGENTINA 2 vs POLONIA 0</a>
           <div className="flex-data"> 
             <img src="src/imagenes/arg.png" alt=""/>
             <img src="src/imagenes/pol.png" alt=""/>
@@ -34,7 +34,7 @@ export const BarraNavegacion = () => {
   </div>
 
   <div className="octavos">
-       <a>Argentina 2 vs Australia 1</a>
+       <a>ARGENTINA 2 vs AUSTRALIA 1</a>
           <div className="flex-data"> 
             <img src="src/imagenes/arg.png" alt=""/>
             <img src="src/imagenes/aus.png" alt=""/>
@@ -43,7 +43,7 @@ export const BarraNavegacion = () => {
   </div>
 
   <div className="cuartos">
-      <a>Argentina 2(4) vs Paises Bajos 2(3)</a>
+      <a>ARGENTINA 2(4) vs PAISES BAJOS 2(3)</a>
         <div className="flex-data"> 
           <img src="src/imagenes/arg.png" alt=""/>
           <img src="src/imagenes/hol.png" alt=""/>
@@ -52,7 +52,7 @@ export const BarraNavegacion = () => {
   </div>
 
   <div className="semifinal">
-      <a>Argentina 3 vs Croacia 0</a>
+      <a>ARGENTINA 3 vs CROACIA 0</a>
         <div className="flex-data"> 
           <img src="src/imagenes/arg.png" alt=""/>
           <img src="src/imagenes/cro.png" alt=""/>
@@ -61,7 +61,7 @@ export const BarraNavegacion = () => {
   </div>
 
   <div className="final">
-       <a>Argentina 3(4) vs Francia 3(2)</a>
+       <a>ARGENTINA 3(4) vs FRANCIA 3(2)</a>
         <div className="flex-data"> 
            <img src="src/imagenes/arg.png" alt=""/>
            <img src="src/imagenes/fra.png" alt=""/>
