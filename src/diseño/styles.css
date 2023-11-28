@@ -1,0 +1,78 @@
+.titulo{
+    font-family: 'Bungee Spice';
+    background-color: "white";
+    text-align: center;
+}
+
+.body{
+    background-image: url("../imagenes/messi.jpg");
+    background-size: cover;
+    height: 1200px;
+}
+
+.container-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.partidos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    grid-auto-rows: minmax(100px, auto);    
+  }
+
+ .arg-ar,.arg-mex,.arg-pol,.octavos,.cuartos,.semifinal,.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(239, 161, 72, 0.434);
+ }
+
+  .arg-ar {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .arg-mex {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .arg-pol {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .octavos {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .cuartos{
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .semifinal {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .final {
+    grid-column: 2;
+    grid-row: 5;
+  }
+  
+img{
+    width: 130px;
+    height: 70px;
+    margin: 8px;
+}
+
+.flex-data{
+    display: flex;
+}
+
+input{
+    width: 100%;
+}
