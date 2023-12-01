@@ -9,7 +9,6 @@ export const App = () => {
                 Partidos enteros de argentina en el mundial 2022
             </h1>
             <Partidos/>
-            <Contenido/>
         </div>
     )
 }
