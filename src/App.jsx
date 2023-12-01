@@ -1,5 +1,5 @@
-import { BarraNavegacion } from "./componentes/barraNavegacion"
-import { Contenido } from "./componentes/contenido"
+import { Partidos } from "./componentes/Partidos"
+import { Contenido } from "./componentes/Contenido"
 import "./diseño/styles.css"
 
 export const App = () => {
@@ -8,7 +8,7 @@ export const App = () => {
             <h1 className="titulo">
                 Partidos enteros de argentina en el mundial 2022
             </h1>
-            <BarraNavegacion/>
+            <Partidos/>
             <Contenido/>
         </div>
     )
