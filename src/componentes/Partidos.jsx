@@ -22,7 +22,7 @@ export const Partidos = () => {
                         <img src="src/imagenes/arg.png" alt=""/>
                         <img src={partido.imagen} alt=""/>
                     </div>
-                   <button id="boton-ver-partido"><a id="ver-partido"href={partido.video}>VER PARTIDO</a></button> 
+                   <button id="boton-ver-partido"><a id="ver-partido"href={"video"+partido.video}>VER PARTIDO</a></button> 
                   </div>
 
             )}

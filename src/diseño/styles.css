@@ -2,9 +2,8 @@
     font-family: 'Bungee Spice';
     text-align: center;
     width: 100%;
-    height: 50px;
+    margin: 0;
     background-color:#221f20be;
-    border-bottom: 1.5px solid black;
 }
 
 .body{
@@ -86,19 +85,16 @@ a{
     text-decoration: none;
 }
 
-#volver{
-margin-top: 20px;
-background-color:#221f20be;
 
+#boton-ver-partido{
+  background-color:#ea1a6067;
 }
 
 #avolver{
- font-size: 16px;
- color: white;
-}
-
-#boton-ver-partido{
-  background-color:#221f2067;
+  background-color:#ea1a5f9e;
+  color: white;
+  border: 2px solid black;
+  font-size: 16px;
 }
 
 #ver-partido{
@@ -111,4 +107,32 @@ background-color:#221f20be;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#141112be;
+  height: 25px;
+  border-bottom: 1.5px solid black;
+  margin-bottom: 20px;
+}
+
+li{
+  list-style: none;
+
+}
+
+.link{
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.link:hover{
+  border-left:2px solid rgb(48, 163, 229);
+  border-right:2px solid rgb(48, 163, 229);
+  margin-left: 18px;
+  margin-right: 18spx;
 }

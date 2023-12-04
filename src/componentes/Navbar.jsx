@@ -3,8 +3,8 @@ export const Navbar = () => {
   return (
     <> 
         <nav>
-            <li> <a href="/partidos"> Ver partidos </a></li>
-            <li> Ver goles </li>
+            <li> <a className="link" href="/partidos"> VER PARTIDOS </a></li>
+            <li> <a className="link" href="/goles"> GOLES </a> </li>
         </nav>
     </>
   )
