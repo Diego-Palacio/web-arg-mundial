@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from "react-router-dom"
 import { App } from "../App"
 import { Partidos } from "./Partidos"
 import { Contenido } from "./Contenido"
+import { Goles } from "./Goles"
 
 export const Rutas = () => {
   return (
@@ -10,6 +11,7 @@ export const Rutas = () => {
         <Routes>
         <Route path="/inicio" element={<App/>}/>
         <Route path="/partidos" element={<Partidos/>}/>
+        <Route path="/goles" element={<Goles/>}/>
         <Route path="/video/212108" element={<Contenido url={"212108"} />}/>
         <Route path="/video/212427" element={<Contenido url={"212427"} />}/>
         <Route path="/video/212520" element={<Contenido  url={"212520"} />}/>

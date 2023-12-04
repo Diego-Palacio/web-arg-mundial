@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: center;
     margin: auto 0;
+    border: 2px solid green;
 }
 
 .partidos {
@@ -24,6 +25,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 24px;
     grid-auto-rows: minmax(100px, auto);    
+    border: 2px solid black;
   }
 
  .arg-ar,.arg-mex,.arg-pol,.octavos,.cuartos,.semifinal,.final{
@@ -72,7 +74,7 @@ img{
 }
 
 .flex-data{
-    display: flex;
+    display: flex;  
 }
 
 input{
@@ -135,4 +137,135 @@ li{
   border-right:2px solid rgb(48, 163, 229);
   margin-left: 18px;
   margin-right: 18spx;
+}
+
+
+.jugadores{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    grid-auto-rows: minmax(100px, auto);    
+    border: 2px solid black;
+}
+
+
+.arm {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.mexm {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.mexe {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.polm{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.polj{
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.ausm{
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.ausj{
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.pan{
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.pam{
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.pam2{
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.paj{
+  grid-column: 1;
+  grid-row: 6;
+}
+
+.paj2{
+  grid-column: 2;
+  grid-row: 6;
+}
+
+.frm{
+  grid-column: 1;
+  grid-row: 7;
+}
+
+.frd{
+  grid-column: 2;
+  grid-row: 7;
+}
+
+.frm2{
+  grid-column: 1;
+  grid-row: 8;
+}
+
+
+#boton-ver-gol{
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+
+#container-flex-jug{
+  display: flex;
+  border: 2px solid blue;
+  height: 120px;
+}
+
+#jugador-img{
+  width: 10px;
+}
+
+#container-flex-jug{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  
+}
+
+#container-fondo-jug{
+  float: left;
+  border: 2px solid white;
+  width: 40%;
+  background-image: url(../Imagenes/ar.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+#si{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#container-min-gol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
