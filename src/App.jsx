@@ -1,8 +1,6 @@
-import { Partidos } from "./componentes/Partidos"
-import { Contenido } from "./componentes/Contenido"
 import "./diseño/styles.css"
 import { Navbar } from "./componentes/Navbar"
-import { Rutas } from "./componentes/rutas"
+import { Rutas } from "./componentes/Rutas"
 
 export const App = () => {
     return (
@@ -13,11 +11,7 @@ export const App = () => {
             </h1>
             <Navbar/>
             <Rutas/>
-        </div>
-
-        
-            
-        
+            </div>
         </div>
     )
 }

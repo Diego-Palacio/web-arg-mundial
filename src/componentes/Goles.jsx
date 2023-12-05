@@ -3,14 +3,13 @@ import { jugadores } from "../data/jugadores"
 export const Goles = () => {
   return (
         
-
     <section  className="container-grid">
 
        <div className="jugadores">
 
-            {jugadores.map(jugador=>
+            {jugadores.map((jugador,index)=>
             
-                    <div className={jugador.clase}> 
+                    <div key={index} className={jugador.clase}> 
                     
                         <div id="container-cards">
 
@@ -23,7 +22,7 @@ export const Goles = () => {
                                     <div id="container-min-gol">
                                         <h2> {jugador.jugador} </h2>
                                         <h3> Min:{jugador.minuto} </h3>
-                                        <button id="boton-ver-gol"><a>VER GOL</a></button> 
+                                        <button id="boton-ver-partido"><a id="ver-partido" style={{fontSize:"16px"}}>VER GOL</a></button> 
                                     </div>
                             </div>
                         </div>
@@ -33,6 +32,7 @@ export const Goles = () => {
 
         </div>
 
+       
     </section>
   )
 }

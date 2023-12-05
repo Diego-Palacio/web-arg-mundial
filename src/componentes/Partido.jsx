@@ -1,10 +1,6 @@
-import { Navigate, Route, Routes } from "react-router-dom"
 import { partidos } from "../data/partidos"
-import { Contenido } from "./Contenido"
 
-
-export const Partidos = () => {
-
+export const Partido = () => {
 
   return (
      
