@@ -17,7 +17,6 @@
     align-items: center;
     justify-content: center;
     margin: auto 0;
-    border: 2px solid green;
 }
 
 .partidos {
@@ -25,7 +24,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 24px;
     grid-auto-rows: minmax(100px, auto);    
-    border: 2px solid black;
   }
 
  .arg-ar,.arg-mex,.arg-pol,.octavos,.cuartos,.semifinal,.final{
@@ -95,7 +93,6 @@ a{
 #avolver{
   background-color:#ea1a5f9e;
   color: white;
-  border: 2px solid black;
   font-size: 16px;
 }
 
@@ -145,7 +142,6 @@ li{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
     grid-auto-rows: minmax(100px, auto);    
-    border: 2px solid black;
 }
 
 
@@ -234,12 +230,15 @@ li{
 
 #container-flex-jug{
   display: flex;
-  border: 2px solid blue;
-  height: 120px;
 }
 
 #jugador-img{
   width: 10px;
+}
+
+h3{
+font-size: 16px;
+margin:10;
 }
 
 #container-flex-jug{
@@ -251,21 +250,34 @@ li{
 
 #container-fondo-jug{
   float: left;
-  border: 2px solid white;
   width: 40%;
   background-image: url(../Imagenes/ar.png);
   background-size:cover;
   background-repeat: no-repeat;
 }
 
-#si{
+#container-cards{
   display: flex;
   flex-direction: row;
-
+  width: 450px;
+  height: 200px;
+  background-color: rgba(239, 161, 72, 0.865);
+  border-radius: 25px;
 }
 
 #container-min-gol{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+#jugador-versus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#versus{
+  text-decoration: underline;
 }
