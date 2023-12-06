@@ -22,7 +22,7 @@ export const Goles = () => {
                                     <div id="container-min-gol">
                                         <h2> {jugador.jugador} </h2>
                                         <h3> Min:{jugador.minuto} </h3>
-                                        <button id="boton-ver-partido"><a id="ver-partido" style={{fontSize:"16px"}}>VER GOL</a></button> 
+                                        <button id="boton-ver-partido"><a href={jugador.video} target="_blank" id="ver-partido" style={{fontSize:"16px"}}>VER GOL</a></button> 
                                     </div>
                             </div>
                         </div>
