@@ -5,4 +5,14 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base:"/web-arg-mundial/",
-})
+  esbuild:{
+    loader:'jsx',
+  },
+  optimizeDeps:{
+    esbuildOptions:{
+      loader:{
+        '.js':'jsx',
+      },
+    },
+  },
+})  
