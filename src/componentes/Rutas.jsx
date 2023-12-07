@@ -20,7 +20,6 @@ export const Rutas = () => {
         <Route path="/video/212939" element={<Contenido url={"212939"}  />}/>
         <Route path="/video/213072" element={<Contenido url={"213072"}  />}/>
         <Route path="/video/194824" element={<Contenido url={"194824"}  />}/>
-        
         </Routes>
       
       </>
