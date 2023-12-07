@@ -17,7 +17,7 @@ export const partidos = [
         versus:"ARGENTINA VS POLONIA",
         imagen:"src/imagenes/pol.png",
         clase:"arg-pol",
-        video:"/212520;start=38"
+        video:"/212520"
     },
     {
         versus:"ARGENTINA VS AUSTRALIA",
