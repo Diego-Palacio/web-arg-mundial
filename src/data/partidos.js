@@ -39,7 +39,7 @@ export const partidos = [
     },
     {
         versus:"ARGENTINA VS FRANCIA",
-        imagen:"src/imagenes/fra.png",
+        imagen:"web-arg-mundial/src/imagenes/fra.png",
         clase:"final",
         video:"/194824"
     }
