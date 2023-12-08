@@ -1,3 +1,10 @@
+import messi from "../imagenes/messiCarta.png"
+import alvarez from "../imagenes/alvarezCarta.png"
+import mcalllister from "../imagenes/mcAllisterCarta.png"
+import fernandez from "../imagenes/EnzoCarta.png"
+import dimaria from "../imagenes/diMariaCarta.png"
+import molina from "../imagenes/molinaCarta.png"
+
 export const jugadores = [
 
     {
