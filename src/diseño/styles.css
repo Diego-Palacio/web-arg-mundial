@@ -286,3 +286,47 @@ margin:10;
 #versus{
   text-decoration: underline;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .partidos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .arg-ar {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .arg-mex {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .arg-pol {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .octavos {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .cuartos{
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .semifinal {
+    grid-column: 1;
+    grid-row: 6;
+  }
+  .final {
+    grid-column: 1;
+    grid-row: 7;
+  }
+
+
+
+
+   }
