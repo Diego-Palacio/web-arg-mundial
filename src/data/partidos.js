@@ -1,45 +1,53 @@
+import argentina from "../imagenes/ar.png"
+import mexico from "../imagenes/mex.png"
+import polonia from "../imagenes/pol.png"
+import australia from "../imagenes/aus.png"
+import holanda from "../imagenes/hol.png"
+import croacia from "../imagenes/cro.png"
+import francia from "../imagenes/fra.png"
+
 export const partidos = [
 
     {
         versus:"ARGENTINA VS ARABIA SAUDITA",
-        imagen:"/web-arg-mundial/src/imagenes/ar.png",
+        imagen:argentina,
         clase:"arg-ar",
         video:"/212108"
     }
     ,
     {
         versus:"ARGENTINA VS MEXICO",
-        imagen:"/web-arg-mundial/src/imagenes/mex.png",
+        imagen:mexico,
         clase:"arg-mex",
         video:"/212427"
     },
     {
         versus:"ARGENTINA VS POLONIA",
-        imagen:"/web-arg-mundial/src/imagenes/pol.png",
+        imagen:polonia,
         clase:"arg-pol",
         video:"/212520"
     },
     {
         versus:"ARGENTINA VS AUSTRALIA",
-        imagen:"/web-arg-mundial/src/imagenes/aus.png",
+        imagen:australia,
         clase:"octavos",
         video:"/212876"
     },
     {
         versus:"ARGENTINA VS PAISES BAJOS",
-        imagen:"/web-arg-mundial/src/imagenes/hol.png",
+        imagen:holanda,
         clase:"cuartos",
         video:"/212939"
     },
     {
         versus:"ARGENTINA VS CROACIA",
-        imagen:"/web-arg-mundial/src/imagenes/cro.png",
+        imagen:croacia,
         clase:"semifinal",
         video:"/213072"
     },
     {
         versus:"ARGENTINA VS FRANCIA",
-        imagen:"/web-arg-mundial/src/imagenes/fra.png",
+        imagen:francia,
         clase:"final",
         video:"/194824"
     }
