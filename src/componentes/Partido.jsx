@@ -1,5 +1,6 @@
 import { App } from "../App"
 import { partidos } from "../data/partidos"
+import argentina from "../../imagenes/arg.png"
 
 export const Partido = () => {
 
@@ -16,7 +17,7 @@ export const Partido = () => {
                   <div key={index} className={partido.clase}> 
                   <a>{partido.versus}</a>
                     <div className="flex-data"> 
-                        <img src="imagenes/arg.png" alt=""/>
+                        <img src={argentina} alt=""/>
                         <img src={partido.imagen} alt=""/>
                     </div>
                    <button id="boton-ver-partido"><a id="ver-partido"href={"/web-arg-mundial/#"+partido.video}>VER PARTIDO</a></button> 
