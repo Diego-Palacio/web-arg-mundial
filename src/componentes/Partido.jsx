@@ -1,6 +1,6 @@
 import { App } from "../App"
 import { partidos } from "../data/partidos"
-import argentina from "../../imagenes/arg.png"
+import argentina from "../imagenes/arg.png"
 
 export const Partido = () => {
 

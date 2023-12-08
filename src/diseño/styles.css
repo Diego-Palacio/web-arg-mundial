@@ -7,7 +7,7 @@
 }
 
 .body{
-    background-image: url("imagenes/messi.jpg");
+    background-image: url("/web-arg-mundial/src/imagenes/messi.jpg");
     background-size:cover;
     background-position: 35%;
     height: 1850px;
