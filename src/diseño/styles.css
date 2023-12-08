@@ -88,15 +88,16 @@ a{
 
 
 #boton-ver-partido{
-  background-color:#ea1a6067;
+  background-color:#ea7b1ae1;
 }
 
 #volver{
-  background-color:#ea1a5fa6;
+  background-color:#ea7b1ae1;
+ 
 }
 
 #volver-a{
-  color: white;
+  color: black;
   font-size: 14px;
 }
 
