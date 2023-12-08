@@ -11,7 +11,6 @@
     background-size:cover;
     background-position: 35%;
     height: 1850px;
-   
 }
 
 .container-grid{
@@ -290,6 +289,7 @@ margin:10;
 
 @media only screen and (max-width: 600px) {
 
+/* CARDS PARTIDOS , PARA QUE SEA UNA SOLA COLUMNA*/
   .partidos {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -326,7 +326,12 @@ margin:10;
     grid-row: 7;
   }
 
-
-
+  /*FONDO MESSI*/
+  .body{
+    background-image: url("../imagenes/messi.jpg");
+    background-size:1000px;
+    background-position: -230px;
+    height: 1500px ;
+}
 
    }
