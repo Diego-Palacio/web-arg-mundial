@@ -9,7 +9,7 @@ export const jugadores = [
 
     {
         versus:"ARGENTINA VS ARABIA SAUDITA",
-        imagen:"src/imagenes/messiCarta.png",
+        imagen:messi,
         jugador:"Lionel Messi",
         minuto:10,
         clase:"arm",
@@ -17,7 +17,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS MEXICO",
-        imagen:"src/imagenes/messiCarta.png",
+        imagen:messi,
         jugador:"Lionel Messi",
         minuto:64,
         clase:"mexm",
@@ -25,7 +25,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS MEXICO",
-        imagen:"src/imagenes/EnzoCarta.png",
+        imagen:fernandez,
         jugador:"Enzo Fernandez",
         minuto:87,
         clase:"mexe",
@@ -33,7 +33,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS POLONIA",
-        imagen:"src/imagenes/mcAllisterCarta.png",
+        imagen:mcalllister,
         jugador:"Mac Callister",
         minuto:46,
         clase:"polm",
@@ -41,7 +41,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS POLONIA",
-        imagen:"src/imagenes/alvarezCarta.png",
+        imagen:alvarez,
         jugador:"Julian Alvarez",
         minuto:67,
         clase:"polj",
@@ -49,7 +49,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS AUSTRALIA",
-        imagen:"src/imagenes/messiCarta.png",
+        imagen:messi,
         jugador:"Lionel Messi",
         minuto:35,
         clase:"ausm",
@@ -57,7 +57,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS AUSTRALIA",
-        imagen:"src/imagenes/alvarezCarta.png",
+        imagen:alvarez,
         jugador:"Julian Alvarez",
         minuto:57,
         clase:"ausj",
@@ -65,7 +65,7 @@ export const jugadores = [
     },
      {
         versus:"ARGENTINA VS CROACIA",
-        imagen:"src/imagenes/alvarezCarta.png",
+        imagen:alvarez,
         jugador:"Julian Alvarez",
         minuto:38,
         clase:"pam",
@@ -74,7 +74,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS CROACIA",
-        imagen:"src/imagenes/alvarezCarta.png",
+        imagen:alvarez,
         jugador:"Julian Alvarez",
         minuto:68,
         clase:"pam2",
@@ -83,7 +83,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS CROACIA",
-        imagen:"src/imagenes/messiCarta.png",
+        imagen:messi,
         jugador:"Lionel Messi",
         minuto:34,
         clase:"pan",
@@ -91,7 +91,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS PAISES BAJOS",
-        imagen:"src/imagenes/molinaCarta.png",
+        imagen:molina,
         jugador:"Nahuel Molina",
         minuto:39,
         clase:"paj",
@@ -99,7 +99,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS PAISES BAJOS",
-        imagen:"src/imagenes/messiCarta.png",
+        imagen:messi,
         jugador:"Lionel Messi",
         minuto:69,
         clase:"paj2",
@@ -107,7 +107,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS FRANCIA",
-        imagen:"src/imagenes/messiCarta.png",
+        imagen:messi,
         jugador:"Lionel Messi",
         minuto:23,
         clase:"frm",
@@ -115,7 +115,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS FRANCIA",
-        imagen:"src/imagenes/diMariaCarta.png",
+        imagen:dimaria,
         jugador:"Angel Di Maria",
         minuto:36,
         clase:"frd",
@@ -123,7 +123,7 @@ export const jugadores = [
     },
     {
         versus:"ARGENTINA VS FRANCIA",
-        imagen:"src/imagenes/messiCarta.png",
+        imagen:messi,
         jugador:"Lionel Messi",
         minuto:108,
         clase:"frm2",
