@@ -331,7 +331,101 @@ margin:10;
     background-image: url("../imagenes/messi.jpg");
     background-size:1000px;
     background-position: -230px;
-    height: 1500px ;
+    height: 100% ;
+}
+
+
+/*CARDS GOLES RESPOSIVOS A UNA COLUMNA Y MENOR TAMAÑO*/
+
+.arm {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.mexm {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.mexe {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.polm{
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.polj{
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.ausm{
+  grid-column: 1;
+  grid-row: 6;
+}
+
+.ausj{
+  grid-column: 1;
+  grid-row: 7;
+}
+
+.pan{
+  grid-column: 1;
+  grid-row: 8;
+}
+
+.pam{
+  grid-column: 1;
+  grid-row: 9;
+}
+
+.pam2{
+  grid-column: 1;
+  grid-row: 10;
+}
+
+.paj{
+  grid-column: 1;
+  grid-row: 11;
+}
+
+.paj2{
+  grid-column: 1;
+  grid-row: 12;
+}
+
+.frm{
+  grid-column: 1;
+  grid-row: 13;
+}
+
+.frd{
+  grid-column: 1;
+  grid-row: 14;
+}
+
+.frm2{
+  grid-column: 1;
+  grid-row: 15;
+}
+
+.jugadores{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 22px;
+  grid-auto-rows: minmax(100px, auto);    
+}
+
+/*ANCHO DE CARDS*/
+#container-cards{
+  width: 380px;
+}
+
+#nombre-jugador{
+  margin:0;
 }
 
    }

@@ -20,7 +20,7 @@ export const Goles = () => {
                             <div id="container-flex-jug"> 
                                     <div id="jugador-versus"><h3 id="versus">{jugador.versus}</h3></div>
                                     <div id="container-min-gol">
-                                        <h2> {jugador.jugador} </h2>
+                                        <h2 id="nombre-jugador"> {jugador.jugador} </h2>
                                         <h3> Min :{jugador.minuto} </h3>
                                         <button id="boton-ver-partido"><a href={jugador.video} target="_blank" id="ver-partido" style={{fontSize:"16px"}}>VER GOL</a></button> 
                                     </div>

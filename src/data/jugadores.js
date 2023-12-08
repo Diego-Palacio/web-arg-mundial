@@ -8,7 +8,7 @@ import molina from "../imagenes/molinaCarta.png"
 export const jugadores = [
 
     {
-        versus:"ARGENTINA VS ARABIA SAUDITA",
+        versus:"ARG VS ARABIA SAUDITA",
         imagen:messi,
         jugador:"Lionel Messi",
         minuto:10,
@@ -90,7 +90,7 @@ export const jugadores = [
         video:"https://youtu.be/lM1bF8hD8-g?si=7AGvaR40kZ0OxGS2&t=44"
     },
     {
-        versus:"ARGENTINA VS PAISES BAJOS",
+        versus:"ARG VS PAISES BAJOS",
         imagen:molina,
         jugador:"Nahuel Molina",
         minuto:39,
@@ -98,7 +98,7 @@ export const jugadores = [
         video:"https://www.youtube.com/watch?v=sivI7x0BuFk"
     },
     {
-        versus:"ARGENTINA VS PAISES BAJOS",
+        versus:"ARG VS PAISES BAJOS",
         imagen:messi,
         jugador:"Lionel Messi",
         minuto:69,
