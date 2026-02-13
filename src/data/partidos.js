@@ -13,50 +13,50 @@ export const partidos = [
         imagen:argentina,
         clase:"arg-ar",
         //video:"/212108"
-        video:"https://archive.org/details/argentinavsarabia2022"
+        video:"/argentinavsarabia2022/Argentina%20vs%20Arabia%20%281%29.mp4"
     }
     ,
     {
         versus:"ARGENTINA VS MEXICO",
         imagen:mexico,
         clase:"arg-mex",
-       // video:"/212427"
-       video:"https://archive.org/details/argentinavsmexico2022"
+        video:"/argentinavsmexico2022/Argentina%20vs%20M%C3%A9xico%20%281%29.ia.mp4"
     },
     {
         versus:"ARGENTINA VS POLONIA",
         imagen:polonia,
         clase:"arg-pol",
        // video:"/212520"
-       video:"https://archive.org/details/poloniavsargentina2022"
+       video:"/poloniavsargentina2022/Argentina%20vs%20Polonia%20%281%29.ia.mp4"
     },
     {
         versus:"ARGENTINA VS AUSTRALIA",
         imagen:australia,
         clase:"octavos",
        // video:"/212876"
-        video: "https://archive.org/details/argentinavsaustralia2022"
+        video: "/argentinavsaustralia2022/Argentina%20Australia%201.ia.mp4"
+       
     },
     {
         versus:"ARGENTINA VS PAISES BAJOS",
         imagen:holanda,
         clase:"cuartos",
        // video:"/212939"
-       video:"https://archive.org/details/holandavsargentina2022"
+       video:"/holandavsargentina2022/Pa%C3%ADses%20Bajos%20vs%20Argentina%20%281%29.ia.mp4"
     },
     {
         versus:"ARGENTINA VS CROACIA",
         imagen:croacia,
         clase:"semifinal",
        // video:"/213072"
-       video:"https://archive.org/details/argentinavscroacia2022"
+       video:"/argentinavscroacia2022/Argentina%20vs%20Croacia%20%281%29.ia.mp4"
     },
     {
         versus:"ARGENTINA VS FRANCIA",
         imagen:francia,
         clase:"final",
-      //  video:"/194824"
-      video:"https://archive.org/details/argentinavsfrancia2022"
+       //video:"/194824"
+       video:"/argentinavsfrancia2022/Argentina%20vs%20Francia%20%281%29.ia.mp4"
     }
 
 ]

@@ -20,32 +20,32 @@ const router= createHashRouter( [
       element: <Goles/>
     },
     {
-        path:"/212108",
-        element:<Contenido url={"212108"}  />
+        path:"/arg-mex",
+        element:<Contenido url={"argentinavsmexico2022/Argentina%20vs%20M%C3%A9xico%20%281%29.ia.mp4"}  />
       },
       {
-        path:"/212427",
-        element: <Contenido url={"212427"}  />
+        path:"/arg-ar",
+        element: <Contenido url={"argentinavsarabia2022/Argentina%20vs%20Arabia%20%281%29.mp4"}  />
       },
       {
-        path:"/212520",
-        element: <Contenido url={"212520"}  />
+        path:"/arg-pol",
+        element: <Contenido url={"poloniavsargentina2022/Argentina%20vs%20Polonia%20%281%29.ia.mp4"}  />
       },
       {
-        path:"/212876",
-        element: <Contenido url={"212876"}  />
+        path:"/octavos",
+        element: <Contenido url={"argentinavsaustralia2022/Argentina%20Australia%201.ia.mp4"}  />
       },
       {
-        path:"/212939",
-        element: <Contenido url={"212939"}  />
+        path:"/cuartos",
+        element: <Contenido url={"holandavsargentina2022/Pa%C3%ADses%20Bajos%20vs%20Argentina%20%281%29.ia.mp4"}  />
       },
       {
-        path:"/213072",
-        element: <Contenido url={"213072"}  />
+        path:"/semifinal",
+        element: <Contenido url={"argentinavscroacia2022/Argentina%20vs%20Croacia%20%281%29.ia.mp4"}  />
       },
       {
-        path:"/194824",
-        element:<Contenido url={"194824"}  />
+        path:"/final",
+        element:<Contenido url={"argentinavsfrancia2022/Argentina%20vs%20Francia%20%281%29.ia.mp4"}  />
       },
   
 

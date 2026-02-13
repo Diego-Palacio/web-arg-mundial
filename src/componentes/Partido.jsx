@@ -20,7 +20,7 @@ export const Partido = () => {
                         <img src={argentina} alt=""/>
                         <img src={partido.imagen} alt=""/>
                     </div>
-                   <button id="boton-ver-partido"><a id="ver-partido"href={partido.video} target="blank">VER PARTIDO</a></button> 
+                   <button id="boton-ver-partido"><a id="ver-partido"href={"/web-arg-mundial/#"+partido.clase}>VER PARTIDO</a></button> 
                   </div>
 
             )}

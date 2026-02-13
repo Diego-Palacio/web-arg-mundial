@@ -16,7 +16,7 @@ export const jugadores = [
         video:"https://youtu.be/UsTQShSZPRc?si=axbN2mYBP4s4X2bJ&t=39"
     },
     {
-        versus:"ARGENTINA VS MEXICO",
+        versus:"ARGENTINA-VS-MEXICO",
         imagen:messi,
         jugador:"Lionel Messi",
         minuto:64,

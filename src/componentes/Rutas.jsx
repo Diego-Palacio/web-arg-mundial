@@ -13,13 +13,13 @@ export const Rutas = () => {
         <Route path="/inicio" element={<App/>}/>
         <Route path="/web-arg-mundial/partidos" element={<Partido/>}/>
         <Route path="/web-arg-mundial/goles" element={<Goles />}/>
-        <Route path="/web-arg-mundial/212108" element={<Contenido url={"212108"}  />}/>
-        <Route path="/web-arg-mundial/212427" element={<Contenido url={"212427"}  />}/>
-        <Route path="/web-arg-mundial/212520" element={<Contenido  url={"212520"} />}/>
-        <Route path="/web-arg-mundial/212876" element={<Contenido url={"212876"}  />}/>
-        <Route path="/web-arg-mundial/212939" element={<Contenido url={"212939"}  />}/>
-        <Route path="/web-arg-mundial/213072" element={<Contenido url={"213072"}  />}/>
-        <Route path="/web-arg-mundial/194824" element={<Contenido url={"194824"}  />}/>
+        <Route path="/web-arg-mundial/arg-mex" element={<Contenido url={"argentinavsmexico2022/Argentina%20vs%20M%C3%A9xico%20%281%29.ia.mp4"}  />}/>
+        <Route path="/web-arg-mundial/arg-ar" element={<Contenido url={"argentinavsarabia2022/Argentina%20vs%20Arabia%20%281%29.mp4"}  />}/>
+        <Route path="/web-arg-mundial/arg-pol" element={<Contenido  url={"poloniavsargentina2022/Argentina%20vs%20Polonia%20%281%29.ia.mp4"} />}/>
+        <Route path="/web-arg-mundial/octavos" element={<Contenido url={"argentinavsaustralia2022/Argentina%20Australia%201.ia.mp4"}  />}/>
+        <Route path="/web-arg-mundial/cuartos" element={<Contenido url={"holandavsargentina2022/Pa%C3%ADses%20Bajos%20vs%20Argentina%20%281%29.ia.mp4"}  />}/>
+        <Route path="/web-arg-mundial/semifinal" element={<Contenido url={"argentinavscroacia2022/Argentina%20vs%20Croacia%20%281%29.ia.mp4"}  />}/>
+        <Route path="/web-arg-mundial/final" element={<Contenido url={"argentinavsfrancia2022/Argentina%20vs%20Francia%20%281%29.ia.mp4"}  />}/>
         </Routes>
       
       </>
