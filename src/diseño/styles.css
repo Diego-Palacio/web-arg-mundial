@@ -1,3 +1,7 @@
+*{
+  margin:0;
+}
+
 .titulo{
     font-family: 'Bungee Spice';
     text-align: center;
