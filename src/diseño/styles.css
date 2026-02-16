@@ -10,6 +10,16 @@
     background-color:#221f20be;
 }
 
+.textoTiempos{
+    font-family:'Times New Roman', Times, serif;
+    color:rgba(70, 228, 78, 0.808);
+    text-align: center;
+    width: 25%;
+    margin:10px;
+    background-color:#1f221fbe;
+}
+
+
 .body{
     background-image: url("../imagenes/messi.jpg");
     background-size:cover;
