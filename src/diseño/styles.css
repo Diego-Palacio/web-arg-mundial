@@ -309,6 +309,16 @@ margin:10;
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .textoTiempos{
+    font-family:'Times New Roman', Times, serif;
+    color:rgba(70, 228, 78, 0.808);
+    text-align: center;
+    width: 80%;
+    margin:10px;
+    background-color:#1f221fbe;
+}
+
+
   .arg-ar {
     grid-column: 1;
     grid-row: 1;
