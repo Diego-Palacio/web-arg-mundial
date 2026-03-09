@@ -13,7 +13,7 @@ export const jugadores = [
         jugador:"Lionel Messi",
         minuto:10,
         clase:"arm",
-        video:"https://youtu.be/UsTQShSZPRc?si=axbN2mYBP4s4X2bJ&t=39"
+        video:"https://www.youtube.com/watch?v=Kx9VZbNecbI&t=24s"
     },
     {
         versus:"ARGENTINA-VS-MEXICO",
@@ -21,7 +21,7 @@ export const jugadores = [
         jugador:"Lionel Messi",
         minuto:64,
         clase:"mexm",
-        video:"https://www.youtube.com/watch?v=9Ojx9q2biyw"
+        video:"https://www.youtube.com/watch?v=xhDzgSY9oCE"
     },
     {
         versus:"ARGENTINA VS MEXICO",
@@ -29,7 +29,7 @@ export const jugadores = [
         jugador:"Enzo Fernandez",
         minuto:87,
         clase:"mexe",
-        video:"https://www.youtube.com/watch?v=SbupW53xP60"
+        video:"https://www.youtube.com/watch?v=BuW9dctELZs"
     },
     {
         versus:"ARGENTINA VS POLONIA",
@@ -37,7 +37,7 @@ export const jugadores = [
         jugador:"Mac Callister",
         minuto:46,
         clase:"polm",
-        video:"https://www.youtube.com/watch?v=MXzdn5U3pAE"
+        video:"https://www.youtube.com/watch?v=ZgapTek7mgA"
     },
     {
         versus:"ARGENTINA VS POLONIA",
@@ -45,7 +45,7 @@ export const jugadores = [
         jugador:"Julian Alvarez",
         minuto:67,
         clase:"polj",
-        video:"https://www.youtube.com/watch?v=uZ2NcvciHqc"
+        video:"https://www.youtube.com/watch?v=ZgapTek7mgA&t=94s"
     },
     {
         versus:"ARGENTINA VS AUSTRALIA",
@@ -53,7 +53,7 @@ export const jugadores = [
         jugador:"Lionel Messi",
         minuto:35,
         clase:"ausm",
-        video:"https://youtu.be/xoVj4ne_r1Q?si=eeP6Zot7mnsu899a&t=47" 
+        video:"https://www.youtube.com/watch?v=gF3GMAw0lvw"
     },
     {
         versus:"ARGENTINA VS AUSTRALIA",
@@ -61,7 +61,7 @@ export const jugadores = [
         jugador:"Julian Alvarez",
         minuto:57,
         clase:"ausj",
-        video:"https://youtu.be/xoVj4ne_r1Q?si=l91w7XAezSr-aJet&t=172"
+        video:"https://www.youtube.com/watch?v=l_j_jztzP8g&t=24s"
     },
      {
         versus:"ARGENTINA VS CROACIA",
@@ -69,7 +69,7 @@ export const jugadores = [
         jugador:"Julian Alvarez",
         minuto:38,
         clase:"pam",
-        video:"https://youtu.be/lM1bF8hD8-g?si=1RQ0MjwLtirfvJQy&t=90"
+        video:"https://www.youtube.com/watch?v=iuIq5MIdVCw&t=47s"
 
     },
     {
@@ -78,8 +78,7 @@ export const jugadores = [
         jugador:"Julian Alvarez",
         minuto:68,
         clase:"pam2",
-        video:"https://youtu.be/lM1bF8hD8-g?si=e9UyD78JE0QWsdci&t=178"
-        
+        video:"https://www.youtube.com/watch?v=iuIq5MIdVCw&t=83s"
     },
     {
         versus:"ARGENTINA VS CROACIA",
@@ -87,7 +86,7 @@ export const jugadores = [
         jugador:"Lionel Messi",
         minuto:34,
         clase:"pan",
-        video:"https://youtu.be/lM1bF8hD8-g?si=7AGvaR40kZ0OxGS2&t=44"
+        video:"https://www.youtube.com/watch?v=iuIq5MIdVCw&t=23s"
     },
     {
         versus:"ARG VS PAISES BAJOS",
@@ -95,7 +94,7 @@ export const jugadores = [
         jugador:"Nahuel Molina",
         minuto:39,
         clase:"paj",
-        video:"https://www.youtube.com/watch?v=sivI7x0BuFk"
+        video:"https://www.youtube.com/watch?v=6k4mSg8u1tg"
     },
     {
         versus:"ARG VS PAISES BAJOS",
@@ -103,7 +102,7 @@ export const jugadores = [
         jugador:"Lionel Messi",
         minuto:69,
         clase:"paj2",
-        video:"https://youtu.be/sivI7x0BuFk?si=NFk7A2Z_rMERNI_9&t=91"
+        video:"https://www.youtube.com/watch?v=F-X0geLjmA4&t=274s"
     },
     {
         versus:"ARGENTINA VS FRANCIA",
@@ -111,7 +110,7 @@ export const jugadores = [
         jugador:"Lionel Messi",
         minuto:23,
         clase:"frm",
-        video:"https://www.youtube.com/watch?v=YkCz8d3xxAM"
+        video:"https://www.youtube.com/watch?v=FA1sR2SZAlY&t=24s"
     },
     {
         versus:"ARGENTINA VS FRANCIA",
@@ -119,7 +118,7 @@ export const jugadores = [
         jugador:"Angel Di Maria",
         minuto:36,
         clase:"frd",
-        video:"https://youtu.be/YkCz8d3xxAM?si=TLeOqr3hQ13shEWC&t=50"
+        video:"https://www.youtube.com/watch?v=FA1sR2SZAlY&t=38s"
     },
     {
         versus:"ARGENTINA VS FRANCIA",
@@ -127,6 +126,6 @@ export const jugadores = [
         jugador:"Lionel Messi",
         minuto:108,
         clase:"frm2",
-        video:"https://youtu.be/YkCz8d3xxAM?si=t8qmaKbUvrH97eIm&t=168"
+        video:"https://www.youtube.com/watch?v=FA1sR2SZAlY&t=86s"
     }
 ]
